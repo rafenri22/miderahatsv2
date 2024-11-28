@@ -37,13 +37,7 @@ export default async function DashboardLayout({
 
         <Sheet>
           <SheetTrigger asChild>
-            <Button
-              className="shrink-0 md:hidden"
-              variant="outline"
-              size="icon"
-            >
-              <MenuIcon className="h-5 w-5" />
-            </Button>
+
           </SheetTrigger>
           <SheetContent side="left">
             <nav className="flex flex-col gap-6 text-lg font-medium mt-5">
